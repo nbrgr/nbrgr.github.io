@@ -1,5 +1,6 @@
 @import 'solarized';
 @import 'base';
+@import url(https://fonts.googleapis.com/css?family=Playball);
 
 #navbar {
   background-color: $base03;
@@ -9,6 +10,7 @@
   h1 {
     color: $base1;
     font-size: 36pt;
+    font-family: 'Playball', cursive;
   }
 
   h2 {
