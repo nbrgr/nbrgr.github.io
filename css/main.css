@@ -1,0 +1,25 @@
+body {
+  background-color: #fdf6e3;
+  color: #657b83; }
+
+#navbar {
+  background-color: #002b36;
+  padding-left: 30px;
+  padding-right: 30px; }
+  #navbar h1 {
+    color: #93a1a1;
+    font-size: 36pt; }
+  #navbar h2 {
+    color: #839496;
+    font-size: 24pt; }
+  #navbar td {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto; }
+
+/*# sourceMappingURL=main.css.map */

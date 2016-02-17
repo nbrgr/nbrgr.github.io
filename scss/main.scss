@@ -1,0 +1,30 @@
+@import 'solarized';
+@import 'base';
+
+#navbar {
+  background-color: $base03;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  h1 {
+    color: $base1;
+    font-size: 36pt;
+  }
+
+  h2 {
+    color: $base0;
+    font-size: 24pt;
+  }
+
+  td {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
