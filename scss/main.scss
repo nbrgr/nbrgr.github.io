@@ -1,32 +1,55 @@
 @import 'solarized';
 @import 'base';
-@import url(https://fonts.googleapis.com/css?family=Playball);
+@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
 
-#navbar {
-  background-color: $base03;
-  padding-left: 30px;
-  padding-right: 30px;
-
-  h1 {
-    color: $base1;
-    font-size: 36pt;
-    font-family: 'Playball', cursive;
-  }
-
-  h2 {
-    color: $base0;
-    font-size: 24pt;
-  }
-
-  td {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+h1, h2, h3, h4, h5 {
+  font-family: 'Domine', serif;
 }
 
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/*
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
+}
+*/
+
+.light {
+  background-color: $base3;
+  color: $base00;
+  h1, h2, h3, h4, h5 {
+    color: $base01;
+  }
+}
+
+.dark {
+  background-color: $base03;
+  color: $base0;
+  h1, h2, h3, h4, h5 {
+    color: $base1;
+  }
+}
+
+.header {
+  background-color: darken($red, 25%);
+  color: $base3;
+}
+
+.logo {
+  background-color: $red;
+  color: $base3;
+}
+
+.center
+{
+  margin: 0 auto !important;
+  float: none !important;
 }
