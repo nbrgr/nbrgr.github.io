@@ -45,6 +45,8 @@ td {
 .logo {
   background-color: #dc322f;
   color: #fdf6e3; }
+  .logo h1 {
+    font-size: 52pt; }
 
 .center {
   margin: 0 auto !important;
