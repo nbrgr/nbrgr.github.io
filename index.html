@@ -9,8 +9,8 @@
     <div class="container-fluid">
       <div class="row">
         <nav class="navbar-header header">
-          <div class="text-center">
-            <ul class="nav navbar-nav text-center">
+          <div class="center-block">
+            <ul class="nav navbar-nav center-block">
               <li><a href="about.html">about</a></li>
               <li><a href="portfolio.html">portfolio</a></li>
             </ul>
@@ -18,9 +18,10 @@
         </nav>
       </div>
       <div class="row logo">
-        <div class="col-md-6 col-xs-12 col-md-offset-3">
-          <h1 class="text-center">Nathan Berger</h1>
-          <h3 class="text-center">Software Developer</h3>
+        <div class="col-md-12 text-center">
+          <h1>Nathan Berger</h1>
+          <h3> <i class="fa fa-chevron-left"></i> Software Developer <i class="fa fa-chevron-right"></i>
+          </h3>
         </div>
       </div>
       <div class="content">
@@ -57,32 +58,66 @@ clear:
   for string in strings:
     wordlists.append(string.split(&quot; &quot;))</pre>
               </div>
+              <div class="col-md-6 col-xs-12">
+                <h3>whooSH</h3>
+                <p>A lightweight linux shell written for UW Madison's Introduction to Operating Systems</p><br>
+                <pre>  while (running)
+  {
+    prompt();
+    bzero(command, 1024);
+    char* success = fgets(command, 1024, stdin);
+    if (success != NULL)
+    {
+      char** commandtokens = parseinput(command);
+      if (commandtokens != NULL)
+      {
+        execute(commandtokens);
+      }
+    }
+  }</pre>
+              </div>
+              <div class="col-md-6 col-xs-12 text-center"><br><br><i class="fa fa-terminal fa-300"></i></div>
             </div>
           </div>
           <div class="col-md-2">   </div>
         </div>
         <div class="row dark">
-          <div class="col-md-2 col-sm-1"></div>
-          <div class="col-md-4 col-sm-5 col-xs-12">
-            <h2>Education:</h2>
+          <div class="col-md-2"></div>
+          <div class="col-md-8 col-xs-12">
             <div class="row">
+              <h2>Education</h2>
               <div class="col-md-12">
-                <h3>University of Wisconsin Madison</h3>
-                <ul>
-                  <li>Introduction to Computational Theory</li>
-                  <li>Introduction to Operating Systems</li>
-                  <li>Machine Organization and Programming</li>
-                  <li>Introduction to Cryptography</li>
-                  <li>Linear Algebra</li>
-                  <li>Calculus and Analytic Geometry II</li>
-                </ul>
+                <div class="row">
+                  <div class="col-md-6 col-xs-12">
+                    <h3>University of Wisconsin Madison</h3>
+                    <ul>
+                      <li>Introduction to Computational Theory</li>
+                      <li>Introduction to Operating Systems</li>
+                      <li>Machine Organization and Programming</li>
+                      <li>Introduction to Cryptography</li>
+                      <li>Calculus and Analytic Geometry II</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 col-xs-12">
+                    <h3>University of Wisconsin Stevens Point</h3>
+                    <ul>
+                      <li>Calculus I</li>
+                      <li>Object Oriented Programming</li>
+                      <li>Datastructures and Algorithms<br/><br/><br/></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 col-xs-12">
+                    <h3>Albert-Ludwigs-Universit&auml;t Freiburg</h3>
+                    <ul>
+                      <li>Not Yet Attended</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 col-xs-12 text-center"><br><br><i class="fa fa-university fa-300"></i></div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-5 col-xs-12">
-            <h1 class="text-center"><i class="fa fa-university fa-3x"></i></h1>
-          </div>
-          <div class="col-md-2 col-sm-1"></div>
+          <div class="col-md-2"></div>
         </div>
       </div>
       <div id="footer" class="row dark">

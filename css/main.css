@@ -27,7 +27,7 @@ body {
   font-style: normal; }
 .fa {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 18pt/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -7907,41 +7907,41 @@ html {
 
 /* Copy & Lists */
 p {
-  line-height: 1.2rem;
-  margin-top: 1.2rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 0; }
 
 ul, ol {
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem; }
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
   ul li, ol li {
-    line-height: 1.2rem; }
+    line-height: 1.5rem; }
   ul ul, ul ol, ol ul, ol ol {
     margin-top: 0;
     margin-bottom: 0; }
 
 blockquote {
-  line-height: 1.2rem;
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem; }
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   /* Change heading typefaces here */
   font-family: sans-serif;
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
   margin-bottom: 0;
-  line-height: 1.2rem; }
+  line-height: 1.5rem; }
 
 h1 {
   font-size: 3.6rem;
-  line-height: 3.6rem;
-  margin-top: 2.4rem; }
+  line-height: 4.5rem;
+  margin-top: 3rem; }
 
 h2 {
   font-size: 2.4rem;
-  line-height: 2.4rem;
-  margin-top: 2.4rem; }
+  line-height: 3rem;
+  margin-top: 3rem; }
 
 h3 {
   font-size: 1.2rem; }
@@ -7957,7 +7957,7 @@ h6 {
 
 /* Tables */
 table {
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
   border-spacing: 0px;
   border-collapse: collapse; }
   table td, table th {
@@ -8030,5 +8030,17 @@ pre {
   padding-bottom: 0px; }
   #footer .dark {
     background-color: #00171d; }
+
+.fa-150 {
+  font-size: 8.33333em; }
+
+.fa-300 {
+  font-size: 16.66667em; }
+
+.fa-500 {
+  font-size: 27.77778em; }
+
+.fa-1000 {
+  font-size: 55.55556em; }
 
 /*# sourceMappingURL=main.css.map */
