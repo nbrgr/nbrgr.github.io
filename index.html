@@ -31,19 +31,39 @@
             <div class="row">
               <div class="col-md-6 col-xs-12">
                 <h3>bfcompiler</h3>
-                <p>A transpiler from brainfuck to x86 assembly. Written in C and can generate code for Windows and Linux.</p>
+                <p>A transpiler from brainfuck to x86 assembly. Written in C and can generate code for Windows and Linux.</p><br>
+                <pre>main:
+  pushl %ebp
+  movl %esp, %ebp
+  pushl $30000
+  call _malloc
+  movl %eax, %edx
+clear:
+  pushl $30000
+  pusl $0
+  pushl %edx</pre>
               </div>
               <div class="col-md-6 col-xs-12">
                 <h3>pymarkov</h3>
-                <p>A python script that generates random text by creating Markov chains from a source text.</p>
+                <p>A python script that generates random text by creating Markov chains from a source text.</p><br>
+                <pre>def learn(self, filename):
+  file = open(filename, 'r')
+  istring = file.read()
+  istring = istring.lower()
+  regex = re.compile('((\n)(\n)*)|(\&quot;)')
+  istring = regex.sub(' ', istring)
+  strings = re.split(';|!|\.|\?', istring)
+  wordlists = [[]]
+  for string in strings:
+    wordlists.append(string.split(&quot; &quot;))</pre>
               </div>
             </div>
           </div>
           <div class="col-md-2">   </div>
         </div>
         <div class="row dark">
-          <div class="col-md-2"></div>
-          <div class="col-md-4 col-xs-12">
+          <div class="col-md-2 col-sm-1"></div>
+          <div class="col-md-4 col-sm-5 col-xs-12">
             <h2>Education:</h2>
             <div class="row">
               <div class="col-md-12">
@@ -59,13 +79,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-xs-12">
-            <h1 class="text-center"><i class="fa fa-university fa-4x"></i></h1>
+          <div class="col-md-4 col-sm-5 col-xs-12">
+            <h1 class="text-center"><i class="fa fa-university fa-3x"></i></h1>
           </div>
-          <div class="col-md-2"></div>
+          <div class="col-md-2 col-sm-1"></div>
         </div>
       </div>
-      <div class="row light"><br><br></div>
       <div id="footer" class="row dark">
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="row dark">
@@ -87,8 +106,8 @@
             </div>
           </div>
         </div>
-        <div class="row dark">
-          <div class="col-md-3 col-md-offset-9">Copyright Nathan Berger 2016</div>
+        <div class="col-xs-12">
+          <div class="text-right">Copyright Nathan Berger 2016</div>
         </div>
       </div>
     </div>

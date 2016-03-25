@@ -7997,13 +7997,15 @@ li {
 
 .light {
   background-color: #fdf6e3;
-  color: #657b83; }
+  color: #657b83;
+  padding-bottom: 15px; }
   .light h1, .light h2, .light h3, .light h4, .light h5 {
     color: #586e75; }
 
 .dark {
   background-color: #002b36;
-  color: #839496; }
+  color: #839496;
+  padding-bottom: 15px; }
   .dark h1, .dark h2, .dark h3, .dark h4, .dark h5 {
     color: #93a1a1; }
 
@@ -8013,14 +8015,19 @@ li {
 
 .logo {
   background-color: #dc322f;
-  color: #fdf6e3; }
+  color: #fdf6e3;
+  padding-bottom: 15px; }
 
 .center {
   margin: 0 auto !important;
   float: none !important; }
 
+pre {
+  margin-top: 10px; }
+
 #footer {
-  background-color: #00171d; }
+  background-color: #00171d;
+  padding-bottom: 0px; }
   #footer .dark {
     background-color: #00171d; }
 
